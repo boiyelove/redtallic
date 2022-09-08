@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<nav class="navbar navbar-default">
+	<div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand relative-item" href="#">
+	        <img alt="Redtail" class="img-responsive img-rounded bg-white" src="static/img/Redtail_Logo.png" width=50px height=50px>
+	      </a>
+	  </div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+     </div>
+</nav>
+
+<div class="row padtopbot">
+	<div class="container">
+	<h1 class="padtopbot-1"><strong>Login</strong></h1>
+	<form>
+
+	<p><input class="form-control classy-form-small" type="text" name="email" placeholder="Username"></p>
+	<p><input class="form-control classy-form-small" type="text" name="password" placeholder="Password"></p>
+	<ul class="list-inline">	
+	<li><button class="btn btn-primary" value=submit>Login</button></li>
+	<li><a href="#">I Forgot My Password</a></li>
+	</ul>
+
+	</form>
+	</div>
+</div>
+
+
+
+
+
+
+
+	
+	<div class="row footer padtopbot-1">
+		<div class="container">
+		<div class="col-md-4">
+			<h3><strong>ABOUT US</strong></h3>
+			We are programmers and finance geeks in outposts all across the world, trying to make it easy for everyone to save, invest, and prepare to live the life you want. 
+			<p><strong>We Socialize</strong></p>
+			<ul class="list-inline">
+			<li><a href="http://www.facebook.com/"><i class="fa fa-facebook fa-1x" ></a></i></li>
+			<li><a href="http://www.facebook.com/"><i class="fa fa-twitter fa-1x" ></a></i></li>
+			<li><a href="http://www.facebook.com/"><i class="fa fa-google-plus fa-1x" ></a></i></li>
+			<li><a href="http://www.facebook.com/"><i class="fa fa-linkedin fa-1x" ></a></i></li>
+			</ul>
+			</div>
+			<div class="col-md-6 col-md-offset-1">
+			<h3><strong>SEND US A MESSAGE</strong></h3>
+					<div class="container foot-form-hold">
+						<form method="post" action=".">
+						<input type="text" class="form-control classy-form" placeholder="Email">
+						<input type="text" class="form-control classy-form" placeholder="Subject">
+						<textarea class="form-control classy-form" rows=8 placeholder="Type Your Message Here"></textarea>
+						</form>
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	
+{% endblock %}

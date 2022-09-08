@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</head>
+<body class="homepage">
+{% block content %}
+{% endblock %}
+  <div class="row topbotpadx2 footer-last">
+    <div class="container text-center">
+
+      <img src="{% static 'img/mascot4.png' %}" width="60px" height="80px">
+      <p>&copy Redtail Consulting 2016</p>
+    </div>
+  
+    </div>
+  
+</body>
+</html>

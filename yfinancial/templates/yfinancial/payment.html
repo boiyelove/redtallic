@@ -1,0 +1,42 @@
+<script src="https://js.braintreegateway.com/js/braintree-2.20.0.js">
+</script>
+
+
+<form id=”creditcard_form” method=”post” action=”{% url ‘checkout_view’ %}”>
+    <!-- input elements for non-sensitive user data -->
+    <label for="id_number">Card number</label>
+    <div id="id_number"></div>
+
+    <label for="id_expiration_month">Expiration month</label>
+    <div id="id_expiration_month"></div>
+
+    <label for="id_expiration_year">Expiration year</label>
+    <div id="id_expiration_year"></div>
+
+    <label for="id_verification_code">CVV</label>
+    <div id="id_verification_code"></div>
+</form>
+
+
+
+
+<script type="text/javascript">
+braintree.setup(
+    "{{ request.session.braintree_client_token }}",
+    "custom",
+    {
+        id: "creditcard_form",
+        hostedFields: {
+            number: {
+                selector: "#cc_number"
+            },
+            expirationDate: {
+                selector: "#cc_expiration_date"
+            },
+            cvv: {
+                selector: "#cc_verification_code"
+            },
+        },
+    }
+);
+</script>

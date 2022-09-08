@@ -1,0 +1,144 @@
+@charset "UTF-8";/*! Cufflowers India styles
+ * Author: Crafted http://www.boiyelabs.com
+ * Date last modified: 5/25/2016
+*/
+
+body {
+    background-color: #F5F5F5;
+}
+
+.sidebar {
+    border-left: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.main {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.table {
+    width: 70%;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.relative-item {
+    position: relative;
+    bottom: 15px;
+}
+
+nav, .navbar-default {
+  background-color: rgba(4, 11, 48, 0.85);
+  border-color: rgba(4, 11, 48, 0.85);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ddd;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: rgba(4, 11, 48, 0.85);
+    background-color: #FFFFFF;
+}
+
+.marketing-top {
+    height: 800px;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+.bg-grey{
+    background-color: #f7f7f7;
+    text-align: center;
+    }
+
+.padtopbot {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.padtopbot-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.classy-form {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:500px;
+    max-height: 170px;
+
+}
+.classy-form-small {
+    width: 398px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:398px;
+    max-height: 170px;
+
+}
+.footer {
+    background-color: rgba(4, 11, 48, 0.85);
+    color: #fff;
+}
+.footer-last {
+    background-color: rgb(4, 11, 47);
+    color: #fff;
+
+}
+.homepage{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+    background-color: #fff;
+    font-weight: 200;
+}
+
+.botpadx2 {
+    padding-bottom: 40px;
+}
+.topbotpadx2{
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.fa-google-plus {
+    color: #C55555;
+}
+
+.fa-facebook{
+    color: #C4C5E4;
+}
+.fa-linkedin {
+    color: white;
+}
+.fa-twitter {
+    color: #d9edf7;
+}
+
+.item {
+    color: #fff;
+}
+.foot-form-hold {
+    width: 500px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.home-search-form {
+    width: 180px;
+    max-width: 180px;
+}
+
